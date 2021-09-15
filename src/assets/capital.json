@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Stuttgart",
+    "asciiname": "Stuttgart",
+    "latitude": 48.78232,
+    "longitude": 9.17702
+  },
+  {
+    "name": "Munich",
+    "asciiname": "Munich",
+    "latitude": 48.13743,
+    "longitude": 11.57549
+  },
+  {
+    "name": "Bremen",
+    "asciiname": "Bremen",
+    "latitude": 53.07582,
+    "longitude": 8.80717
+  },
+  {
+    "name": "Hamburg",
+    "asciiname": "Hamburg",
+    "latitude": 53.55073,
+    "longitude": 9.99302
+  },
+  {
+    "name": "Wiesbaden",
+    "asciiname": "Wiesbaden",
+    "latitude": 50.08258,
+    "longitude": 8.24932
+  },
+  {
+    "name": "Hannover",
+    "asciiname": "Hannover",
+    "latitude": 52.37052,
+    "longitude": 9.73322
+  },
+  {
+    "name": "Düsseldorf",
+    "asciiname": "Duesseldorf",
+    "latitude": 51.22172,
+    "longitude": 6.77616
+  },
+  {
+    "name": "Mainz",
+    "asciiname": "Mainz",
+    "latitude": 49.98419,
+    "longitude": 8.2791
+  },
+  {
+    "name": "Saarbrücken",
+    "asciiname": "Saarbruecken",
+    "latitude": 49.23262,
+    "longitude": 7.00982
+  },
+  {
+    "name": "Kiel",
+    "asciiname": "Kiel",
+    "latitude": 54.32133,
+    "longitude": 10.13489
+  },
+  {
+    "name": "Potsdam",
+    "asciiname": "Potsdam",
+    "latitude": 52.39886,
+    "longitude": 13.06566
+  },
+  {
+    "name": "Schwerin",
+    "asciiname": "Schwerin",
+    "latitude": 53.62937,
+    "longitude": 11.41316
+  },
+  {
+    "name": "Dresden",
+    "asciiname": "Dresden",
+    "latitude": 51.05089,
+    "longitude": 13.73832
+  },
+  {
+    "name": "Magdeburg",
+    "asciiname": "Magdeburg",
+    "latitude": 52.12773,
+    "longitude": 11.62916
+  },
+  {
+    "name": "Erfurt",
+    "asciiname": "Erfurt",
+    "latitude": 50.9787,
+    "longitude": 11.03283
+  },
+  {
+    "name": "Berlin",
+    "asciiname": "Berlin",
+    "latitude": 52.52437,
+    "longitude": 13.41053
+  }
+]
