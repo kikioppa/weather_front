@@ -4,7 +4,7 @@ function List({ searchText, data, onClick }) {
   return (
     <>
       {data.map((values) => {
-        if(searchText && searchText !== values.name)  return null;
+        if(searchText !== values.name)  return null;
         return (
           <div key={`div-${values.name}-${values.latitude}`}>
             <City
