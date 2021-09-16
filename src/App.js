@@ -8,31 +8,25 @@ import SearchBar from "./components/SearchBar";
 import UpdateField from "./components/UpdateField";
 function App() {
   // const [name, setName] = useState('');
-  const [keyword, setKeyword] = useState(); // 검색어
-  const [results, setResult] = useState([]); // 검색 결과들
-  const [searchResult, setSearchResult] = useState(''); // 최종 텍스트 (눌렀을 때)
+  const [keyword, setKeyword] = useState(); // keyword
+  const [results, setResult] = useState([]); // keyword results
+  const [searchResult, setSearchResult] = useState(''); // final results = on click
 
-    // 필드를 업데이트 
-    // const updateField = (field, value, update = true) => {
-    //   if (update) onSearch(value);
-    //   if (field === 'keyword') {
-    //     setKeyword(value);
-    //   }
-    //   if (field === 'results') {
-    //     setResult(value);
-    //   }
-    // }
+ 
   
-      // 입력된 텍스트로 data 배열에서 찾아 매칭되는 결과들을 저장 
+  
+  //find data array by input text then save matching results
   const onSearch = useCallback(text => {
     var results = cities.filter(item => true === matchName(item.name, text));
     setResult({ results });
   }, []);
 
-   // 검색해야할 문자열을 키워드와 비교하여 매칭이 되는지 체크 
+
+   // check if research text matching with keyword
    const matchName = (name, keyword) => {
     var keyLen = keyword.length;
     name = name.toLowerCase().substring(0, keyLen);
+    // regExp = [^a-zA-Z0-9äöüÄÖÜß]
     // name = name.replace('ü', 'u')
     if (keyword === "") return false;
  
